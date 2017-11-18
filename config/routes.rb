@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  get 'home/welcome'
-  get 'home/login'
-  get 'home/sign_up'
+  get '/sign_in' => 'home#sign_in'
+  get '/sign_up' => 'home#sign_up'
 
   root 'home#welcome'
   # The priority is based upon order of creation: first created -> highest priority.

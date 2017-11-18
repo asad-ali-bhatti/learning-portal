@@ -2,8 +2,8 @@ class HomeController < ApplicationController
   def welcome
   end
 
-  def login
-    render 'login', layout: 'public'
+  def sign_in
+    render 'sign_in', layout: 'public'
   end
 
   def sign_up
