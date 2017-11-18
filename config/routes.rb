@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'home/welcome'
+  get 'home/login'
+  get 'home/sign_up'
+
+  root 'home#welcome'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
